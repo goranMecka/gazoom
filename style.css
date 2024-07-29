@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-item.active {
+    color: white;
+    border-left: 2px solid white; 
+  
+}
+
+
+.carousel-item img {
+    height: 70vh;
+}
+.carousel-item.carousel-text {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;  
+}
+ .carousel-text {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+  } 
+ 
+
+.parallax-bg {
+    display: flex;
+    justify-content: center;
+    background-image: url('./images/lights.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 15vh; 
+  }
+  .img-fluid img {
+  
+    width: 100%;
+  }
+  .img-circle {
+    border-radius: 50%;
+    margin-top: -85px;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: auto;
+    
+  }
+
+  .parallax-bg-2 {
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.572), rgba(0, 0, 0, 0.739)), url('./images/media.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    height: 20vh; 
+  }
+
+
+ .bg-img-3 {
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.572), rgba(0, 0, 0, 0.739)), url('./images/media.jpg');
+
+}
+.bg-dark-gray {
+    background-color: rgb(18, 17, 17);
+}
+.about-img {
+  background-attachment: fixed;
+    height: 50vh;
+    background-image: url("./images/image1.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.bg-red {
+    background-color: red;
+    border-radius: 7px;
+}
+.bg-gray {
+  background-color: rgb(56, 53, 53);
+}
+.bg-dark-gray {
+  background-color: rgb(34, 29, 29);
+}
+.service-img {
+  background-attachment: fixed;
+  background-image: url("./images/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+ .outline:focus {
+  outline: none !important;
+}
+.hover-red:focus {
+background-color: red;
+}
+.c-black {
+ background-color: black;
+  
+}
+.bg-black {
+  background-color: black;
+}
+.no-mg {
+  width: 1%;
+}
+@media (max-width: 767px) {
+  .nav-link {
+    margin-left: 2rem;
+}
+}
+@media (min-width: 768px) {
+  .nav-item {
+    margin-right: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .about-img {
+  background-size: 400%;
+  }
+}
+
